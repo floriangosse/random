@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title class="js-title">Random Number</title>
+
+        <meta name="theme-color" content="#7a7a7a">
+
+        <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    </head>
+
+    <body>
+        <form class="js-form">
+            <div class="input-group">
+                <label for="from">From</label>
+                <input type="number" name="from" id="from" required pattern="[0-9]*" tabindex="1" class="js-from">
+            </div>
+            <div class="input-group">
+                <label for="to">To</label>
+                <input type="number" name="to" id="to" required pattern="[0-9]*" tabindex="2" class="js-to">
+            </div>
+        </form>
+
+        <div class="result js-result" tabindex="3"></div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
